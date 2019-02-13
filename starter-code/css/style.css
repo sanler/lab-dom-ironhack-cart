@@ -24,6 +24,13 @@ input {
   border-radius: 4px;
 }
 
+.producto div{
+
+width: 20%;
+
+}
+
+
 .btn-success {
     color: #fff;
     background-color: #5cb85c;
@@ -45,12 +52,38 @@ input {
 text-align: center;
 
 }
+
+#totalPrice{
+
+  text-align: center;
+  margin-top: 50px;
+  }
+
 .producto{
 
 display:flex;
 justify-content: space-around;
 margin-top: 30px;
+margin-left: 100px;
 }
+
+.newProd{
+
+  display:flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-left: 100px;
+
+
+}
+
+
+.newProd div{
+
+  width: 20%;
+  
+  }
+
 .calcularTotal{
   display:flex;
 justify-content: center;
